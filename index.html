@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel ="stylesheet" type="text/css" href="ProfileStyle.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Cardo&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  align-items: center;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 0px;
+  font-family: Arial;
+}
+
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+<style>
+.profile {
+  position: relative;
+  width: 30%;
+}
+
+.image {
+  display: ;
+  width: 60%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.profile:hover .overlay {
+  opacity: 0.3;
+  filter: alpha(opacity=50);
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+</style>
+</head>
+<body>
+<div id="heade">
+		<nav>
+	
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Gallery</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			
+			</ul>
+		</nav>
+			</div>
+  <div class="backImage">
+   		
+		
+   	      <div class="profile" style="text-align: center">
+   	  	   <img src="me3.jpg" alt="img" class="image" align="middle">
+           <div class="overlay">
+    <div class="text">Hi I am Sagar .Please scroll for more about me.</div>
+  </div>
+            <div class="profileText">
+          	<h2>Sagar Siwakoti</h2>
+            <h3>Kathmandu,Nepal</h3>
+            <p> PROGRAMMER | GAMER | TECH GENIUS</p>
+
+          </div>   
+            <div class="profileFonts">
+                 <a href="#">
+                 	<i class="fa fa-facebook-square fa-2x"></i></a>   
+                 <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
+                 <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>    
+                 <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
+           </div>
+	 </div>	  
+   	  </div>
+  	 </div>
+     <div class="back">
+     <h1 style="color:White ;">My Skills :</h1>
+
+<b><br><hr><hr><br><p style="color:white;">C/C++</p>
+<div class="container">
+  <div class="skills c">75%</div>
+</div>
+
+<br><p style="color:white;">Java</p>
+<div class="container">
+  <div class="skills java">60%</div>
+</div>
+
+<br><p style="color:white;">Mysql</p>
+<div class="container">
+  <div class="skills sql">40%</div>
+</div>
+
+<br><p style="color:white;">Linux</p>
+<div class="container">
+  <div class="skills linux">65%</div>
+</div>
+</b>  
+<br></div>
+
+<div class="main">
+
+<h1>MY WORK</h1>
+<hr>
+
+<h2>These are my some of work.</h2>
+<p>My works are still in intial stage/learning stage.</p>
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="atm.jpg" alt="Mountains" style="width:100%">
+      <h3>My Work</h3>
+      <p>This is a project on ATM Machine Transaction using java and mysql.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="database.png" alt="Lights" style="width:100%">
+      <h3>My Work</h3>
+      <p>This is simple program for database connection.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="1.jpg" alt="Nature" style="width:100%">
+      <h3>My Work</h3>
+      <p>Work in progress.Please be patience.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="1.jpg" alt="Mountains" style="width:100%">
+      <h3>My Work</h3>
+      <p>Work in progress.Please be patience. </p>
+    </div>
+  </div>
+</div>
+
+<div class="backgr">
+  <h1> Contacts:</h1><hr><br>
+    <h3>Hi i am Sagar .If you want <br>
+        to contact me.Click on the <br>
+        following link below.<br>
+      Thank You!!</h3>
+      <div class="profileFonts">
+                 <a href="#"><a href="https://www.facebook.com/sagar.siwakoti.587" title="Go to my facebook." target="_blank">
+                  <i class="fa fa-facebook-square fa-3x"></i></a></a>   
+                 <a href="#"><a href="https://www.instagram.com/i__am_sagar/" title="Go to my instagram profile."><i class="fa fa-instagram fa-3x"></i></a> </a>
+                 <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>    
+                 <a href="#"><i class="fa fa-google-plus-square fa-3x"></i></a>
+           </div>
+</div>
+</body>
+</html>
